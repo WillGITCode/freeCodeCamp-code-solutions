@@ -1,0 +1,42 @@
+#sectionTwo {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 5%;
+}
+
+#sectionOne {
+    background: url("http://yeahstockphotos.com/wp-content/uploads/original/2016_05/free-stock-photos-high-resolution-download033.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 10%;
+}
+
+#sectionThree {
+    background: url("http://yeahstockphotos.com/wp-content/uploads/original/2016_05/free-stock-photos-high-resolution-download083.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: rgb(180, 180, 180);
+    padding: 1%;
+}
+
+.btnList {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+#pageHeader {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    border-radius: 2%;
+}
+
+#title {
+    font-size: 4em;
+}
