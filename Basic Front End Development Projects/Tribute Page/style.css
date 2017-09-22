@@ -1,0 +1,20 @@
+body {
+    margin-top: 60px;
+    font-family: 'Acme', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px
+}
+
+ul {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.red-background {
+    background-color: #FF2400;
+    border-radius: 5px
+}
