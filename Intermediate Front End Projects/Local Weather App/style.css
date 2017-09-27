@@ -1,0 +1,47 @@
+body {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;
+}
+
+.infoBlock {
+    margin: 0 auto;
+    padding: 40px;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.button {
+    margin-bottom: 5px;
+    width: 20%;
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
