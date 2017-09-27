@@ -1,0 +1,43 @@
+<audio id="1Aud">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+	</audio>
+<audio id="2Aud">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+	</audio>
+<audio id="3Aud">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+	</audio>
+<audio id="4Aud">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+	</audio>
+
+<body>
+    <div class="topMargin"></div>
+    <div id="outerCircle">
+        <div id="innerCircle">
+            <h1 id="Simon">Simon</h1>
+            <div id="LCD"></div>
+            <div class="row" id="buttonsCols">
+                <div class="col-md-4"><button type="button" class="btn btn-xs UIButtons" id="Reset">Reset</button> <label class="switch">
+</div>
+  <div class="col-md-4"><button type="button" class="btn btn-xs UIButtons" id="Start">Start</button></div>
+  <div class="col-md-4"><button type="button" class="btn btn-xs UIButtons" id="Strict">Strict</button></div>
+</div>
+  
+  </div>
+  <div id="innerCone1">
+  </div>
+  <div id="innerCone2">
+  </div>
+  <div id="innerCone4">
+  </div>
+  <div id="innerCone3">
+  </div>
+ </div>
+ <br>
+ <div id="signature">
+  <h4>Design and Programming by</h4>
+  <h3>William Silburn</h3>
+ </div>
+ <div class="topMargin"></div>
+</body>
