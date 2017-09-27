@@ -1,0 +1,26 @@
+body {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    background-image: url(http://www.rolereboot.org/wp-content/uploads/2014/10/tamara-wikipedia-631x354.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    background-position: right top, left top;
+}
+
+div {
+    padding: 5px;
+    margin: 20px;
+}
+
+div.well {
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 10px;
+}
+
+#magIcon {
+    width: 90px;
+}
+
+.hidden {
+    display: none;
+}
