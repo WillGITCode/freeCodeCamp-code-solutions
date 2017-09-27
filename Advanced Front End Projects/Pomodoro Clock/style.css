@@ -1,0 +1,73 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    background-size: cover;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow);
+    /* Standard syntax (must be last) */
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.container-fluid {
+    height: 600px;
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    font-size: 4.5em;
+    text-shadow: 2px 1px #808080;
+}
+
+#session {
+    display: inline;
+}
+
+.btn-blend {
+    background-color: rgba(255, 0, 0, 0.0);
+    font-size: 3em;
+}
+
+h4 {
+    display: inline;
+}
+
+#Tomato {
+    margin: 0 auto;
+    background-color: orangered;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3pt red;
+    z-index: 5;
+}
+
+#sessionTimer {
+    padding-top: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+    #Tomato {
+        background-color: white;
+        height: 400px;
+        width: 400px;
+    }
+    .btn-blend {
+        font-size: 2em;
+    }
+}
