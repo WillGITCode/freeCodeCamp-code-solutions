@@ -1,0 +1,96 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow);
+    /* Standard syntax (must be last) */
+    font-family: 'Codystar', cursive;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.calculaterBody {
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    width: 99%;
+    height: 610px;
+    border-radius: 5%;
+    border: 5px solid white;
+}
+
+#label {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+#lcd {
+    padding-right: 8px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 68px;
+}
+
+.btn {
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 11px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.btn:active {
+    background-color: green;
+    transform: translateY(4px);
+}
+
+.col-md-3,
+.col-md-6,
+.col-xs-3,
+.col-xs-6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#signature {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Tangerine', cursive;
+}
+
+@media only screen and (min-width: 500px) {
+    .calculaterBody {
+        width: 66%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .calculaterBody {
+        width: 33%;
+    }
+}
