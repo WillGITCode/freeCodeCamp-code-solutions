@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow);
+    /* Standard syntax (must be last) */
+    font-family: serif;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    width: 30%;
+    margin: auto;
+    min-width: 740px;
+}
+
+.col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.board-square {
+    background-color: firebrick;
+    font-family: serif;
+    font-size: 120px;
+    font-size: 6vw;
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-color: gold;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: white;
+}
+
+#PlayerO {
+    float: right;
+}
+
+.margin-btm {
+    padding-bottom: 10%;
+}
+
+#Title {
+    text-align: center;
+    margin: auto;
+    font-family: 'Permanent-Marker', cursive;
+}
+
+#clickBlocker {
+    height: 100%;
+    visibility: hidden;
+}
+
+#signature {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Tangerine', cursive;
+}
