@@ -1,3 +1,6 @@
+TODO //Note due to http not being secure the getJSON call is broken must be fixed or worked around
+
+
 A Pen created at Codepen.io in accordance with below user stories.
 
 Pen can be found at https://codepen.io/Wilhelmburn/full/jBodGv/
