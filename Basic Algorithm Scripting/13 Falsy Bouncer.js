@@ -12,14 +12,13 @@ Array.prototype.filter()
 */
 
 function bouncer(arr) {
-    var tempArr = [];
-    tempArr = arr.filter(falsy);
-
-    return tempArr;
-}
-
-function falsy(value) {
-    return Boolean(value);
-}
+    
+    function isTrue(item){
+        if(item){
+          return item;
+        }
+      }
+      
+      return arr.filter(isTrue);
 
 bouncer([7, "ate", "", false, 9]);
