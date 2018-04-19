@@ -12,7 +12,7 @@ Array.prototype.filter()
 */
 
 function bouncer(arr) {
-    
+
     function isTrue(item){
         if(item){
           return item;
@@ -20,5 +20,7 @@ function bouncer(arr) {
       }
       
       return arr.filter(isTrue);
+
+    }
 
 bouncer([7, "ate", "", false, 9]);
