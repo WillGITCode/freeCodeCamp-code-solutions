@@ -31,3 +31,24 @@ function rot13(str) { // LBH QVQ VG!
 
 // Change the inputs below to test
 rot13("SERR PBQR PNZC");
+
+
+//Way better this time. good job:)
+
+function rot13(str) { // LBH QVQ VG!
+  
+    var newStr = '';
+    
+    for(var i = 0; i < str.length; i++){
+      if(str.charCodeAt(i) > 64 && str.charCodeAt(i) < 91){
+        newStr += String.fromCharCode((str.charCodeAt(i) - 65 + 13) %26 +65);  
+      }else{
+        newStr += str[i];
+      }
+    }
+    
+    return newStr;
+  }
+  
+  // Change the inputs below to test
+  rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.");
