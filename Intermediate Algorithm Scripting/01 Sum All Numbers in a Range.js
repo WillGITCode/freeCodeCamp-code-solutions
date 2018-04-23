@@ -25,3 +25,20 @@ function sumAll(arr) {
 }
 
 sumAll([5, 10]);
+
+
+// Simpler code on second try
+
+function sumAll(arr) {
+    arr = arr.sort(function(a, b){return a-b;});
+    var counter = 0;
+    
+    
+    for(var i = arr[0]; i <= arr[arr.length-1]; i++){
+      counter += i;
+    }
+    
+    return counter;
+  }
+  
+  sumAll([1, 4]);
