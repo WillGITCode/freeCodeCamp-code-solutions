@@ -30,3 +30,20 @@ function diffArray(arr1, arr2) {
 }
 
 diffArray([1, "calf", 3, "piglet"], [7, "filly"]);
+
+
+//Second attempt
+function diffArray(arr1, arr2) {
+    var newArr = arr1.concat(arr2);
+    var diffArr = [];
+    
+    for(var i = 0; i < newArr.length; i++){
+      if(newArr.indexOf(newArr[i]) == newArr.lastIndexOf(newArr[i])){
+         diffArr.push(newArr[i]);
+       }
+    }
+    
+    return diffArr;
+  }
+  
+  diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]);
